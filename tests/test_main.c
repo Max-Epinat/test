@@ -1,7 +1,7 @@
 #include <criterion/criterion.h>
 
 Test(basic_test, passing_test) {
-    cr_assert(1 == 1, "This test should passs");
+    cr_assert(1 == 1, "This test should pass");
 }
 
 // Uncomment this test to simulate a failing build
